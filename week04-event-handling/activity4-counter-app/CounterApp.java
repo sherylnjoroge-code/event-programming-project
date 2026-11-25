@@ -85,6 +85,41 @@ public class CounterApp {
             statusLabel.setText("Counter reset");
         });
 
+        // ---- KEYBOARD SHORTCUTS ----
+
+        // Up arrow = increment
+        frame.getRootPane().getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW)
+            .put(KeyStroke.getKeyStroke("UP"), "increment");
+        frame.getRootPane().getActionMap()
+            .put("increment", new AbstractAction() {
+                @Override
+                public void actionPerformed(java.awt.event.ActionEvent e) {
+                    incrementButton.doClick();
+                }
+            });
+
+        // Down arrow = decrement
+        frame.getRootPane().getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW)
+            .put(KeyStroke.getKeyStroke("DOWN"), "decrement");
+        frame.getRootPane().getActionMap()
+            .put("decrement", new AbstractAction() {
+                @Override
+                public void actionPerformed(java.awt.event.ActionEvent e) {
+                    decrementButton.doClick();
+                }
+            });
+
+        // R key = reset
+        frame.getRootPane().getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW)
+            .put(KeyStroke.getKeyStroke("R"), "reset");
+        frame.getRootPane().getActionMap()
+            .put("reset", new AbstractAction() {
+                @Override
+                public void actionPerformed(java.awt.event.ActionEvent e) {
+                    resetButton.doClick();
+                }
+            });
+
         frame.setVisible(true);
     }
 
