@@ -3,6 +3,7 @@
         "BugFixChallenge",
         "week1_EDP/procedural",
         "week1_EDP/eventdriven",
-        "week02-observer-pattern"
+        "week02-observer-pattern",
+        "SystemDesign"
     ]
 }
