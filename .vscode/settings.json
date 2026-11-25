@@ -3,7 +3,10 @@
         "BugFixChallenge",
         "week1_EDP/procedural",
         "week1_EDP/eventdriven",
-        "week02-observer-pattern",
-        "SystemDesign"
+        "SystemDesign",
+        "week02-observer-pattern/activity1-weather-station",
+        "week02-observer-pattern/activity2-legacy-observer",
+        "week02-observer-pattern/activity3-custom-observer",
+        "week02-observer-pattern/activity4-comparison"
     ]
 }
