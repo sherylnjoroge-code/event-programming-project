@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "BugFixChallenge",
+        "week1_EDP/procedural",
+        "week1_EDP/eventdriven",
+        "week02-observer-pattern"
+    ]
+}
