@@ -26,3 +26,11 @@
 | Adding a new display | Modify DataModel | Just register a new observer |
 | Testing DataModel in isolation | Hard, it needs the display classes | Easy, no display classes required |
 | Removing a display | Modify DataModel | Just don't register it |
+
+
+## Activity 4: Self-Check
+
+1. **Which mechanism carries both the old and new value of a property?** PropertyChangeListener.
+2. **Which mechanism requires a helper class to manage the listener list?** PropertyChangeListener, through PropertyChangeSupport.
+3. **Which two mechanisms are recommended for modern Java?** Custom Observer and JavaFX Bindings.
+4. **Which mechanism is deprecated and should be avoided?** java.util.Observer and Observable.
