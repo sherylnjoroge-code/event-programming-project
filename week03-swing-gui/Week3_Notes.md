@@ -27,3 +27,60 @@
 
 1. All GUI creation and updates must happen on the EDT.
 2. Never run long operations on the EDT.
+
+
+
+## Activity 5: Self-Check
+
+1. **How many different layout managers did I use?** At least four. BorderLayout for the main frame, the header and the status bar. GridLayout for the sidebar and the stat cards. BoxLayout for stacking the main content vertically. FlowLayout is also used by default inside some panels.
+2. **Why use Box.createVerticalStrut(20) between components?** It adds an invisible 20-pixel gap. It is cleaner than adding empty panels or margins.
+3. **What is the purpose of setPreferredSize() on the sidebar?** It gives the sidebar a fixed width of 180 pixels. Without it, BorderLayout.WEST would shrink the sidebar to the minimum its contents need.
+
+
+
+# Week 3 Final Self-Assessment
+
+## Learning Outcome 1: Create a functional Swing application with a main window
+Rating (1-5): ___
+
+Minimal code to create a JFrame, from memory:
+
+```java
+import javax.swing.*;
+
+public class MyWindow {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("My Window");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setSize(400, 300);
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
+        });
+    }
+}
+```
+
+## Learning Outcome 2: Add, customize and arrange components using layouts
+Rating (1-5): ___
+
+| Layout | Use Case |
+|---|---|
+| FlowLayout | A toolbar or a row of buttons |
+| BorderLayout | A main window with header, sidebar, content and footer |
+| GridLayout | A calculator keypad or a photo gallery |
+| BoxLayout | A vertical stack of items, like the main content of my portal |
+
+## Learning Outcome 3: Ensure GUI code runs on the EDT
+Rating (1-5): ___
+
+The two golden rules of Swing threading:
+1. All GUI creation and updates must happen on the EDT.
+2. Never perform long operations on the EDT.
+
+## Learning Outcome 4: Build a static, non-interactive UI layout
+Rating (1-5): ___
+
+Did my StudentPortal.java run successfully?
+- [x] Yes
+- [ ] No
