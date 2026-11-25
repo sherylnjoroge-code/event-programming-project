@@ -12,6 +12,7 @@
         "week03-swing-gui/activity2-basic-components",
         "week03-swing-gui/activity3-layout-managers",
         "week03-swing-gui/activity4-edt-rule",
-        "week03-swing-gui/activity5-complete-mockup"
+        "week03-swing-gui/activity5-complete-mockup",
+        "week04-event-handling/activity-actionlistener-basics"
     ]
 }
