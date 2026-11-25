@@ -13,6 +13,13 @@
         "week03-swing-gui/activity3-layout-managers",
         "week03-swing-gui/activity4-edt-rule",
         "week03-swing-gui/activity5-complete-mockup",
+        "week04-event-handling/activity1-actionlistener-basics",
+        "week04-event-handling/activity2-listener-techniques",
+        "week04-event-handling/activity3-item-and-document-listeners",
+        "week04-event-handling/activity4-counter-app",
+        "week04-event-handling/activity5-interactive-form",
+        "week04-event-handling/activity6-complete-app",
+        "week04-event-handling/activity7-mouse-and-key",
         "week06-javafx/src",
         "week07-javafx-events/src",
         "week08-javafx-bindings/src"
