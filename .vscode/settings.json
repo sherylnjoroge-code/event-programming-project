@@ -7,6 +7,11 @@
         "week02-observer-pattern/activity1-weather-station",
         "week02-observer-pattern/activity2-legacy-observer",
         "week02-observer-pattern/activity3-custom-observer",
-        "week02-observer-pattern/activity4-comparison"
+        "week02-observer-pattern/activity4-comparison",
+        "week03-swing-gui/activity1-first-window",
+        "week03-swing-gui/activity2-basic-components",
+        "week03-swing-gui/activity3-layout-managers",
+        "week03-swing-gui/activity4-edt-rule",
+        "week03-swing-gui/activity5-complete-mockup"
     ]
 }
