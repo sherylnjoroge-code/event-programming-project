@@ -14,6 +14,7 @@
         "week03-swing-gui/activity4-edt-rule",
         "week03-swing-gui/activity5-complete-mockup",
         "week06-javafx/src",
+        "week07-javafx-events/src",
         "week08-javafx-bindings/src"
     ],
     "java.project.referencedLibraries": [
