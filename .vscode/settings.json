@@ -13,6 +13,10 @@
         "week03-swing-gui/activity3-layout-managers",
         "week03-swing-gui/activity4-edt-rule",
         "week03-swing-gui/activity5-complete-mockup",
-        "week04-event-handling/activity-actionlistener-basics"
+        "week06-javafx/src",
+        "week08-javafx-bindings/src"
+    ],
+    "java.project.referencedLibraries": [
+        "C:/Users/hp/javafx/lib/*.jar"
     ]
 }
