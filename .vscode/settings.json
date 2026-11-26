@@ -27,9 +27,11 @@
                                      "week08-javafx-bindings/src",
                                      "week09-async-javafx/src",
                                      "week1_EDP/eventdriven",
-                                     "week1_EDP/procedural"
+                                     "week1_EDP/procedural",
+                                     "week10-university-system/src"
                                  ],
     "java.project.referencedLibraries":  [
-                                             "C:/Users/hp/javafx/lib/*.jar"
+                                             "C:/Users/hp/javafx/lib/*.jar",
+                                             "week10-university-system/lib/*.jar"
                                          ]
 }
