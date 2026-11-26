@@ -6,6 +6,10 @@ public class TightlyCoupledSystem {
     static class DataModel {
         private int value;
 
+        public int getValue() {
+            return value;
+        }
+
         public void setValue(int value) {
             this.value = value;
             // Directly calling the UI updates (tightly coupled)
