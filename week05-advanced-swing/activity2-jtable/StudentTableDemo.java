@@ -42,6 +42,32 @@ public class StudentTableDemo {
             table.getTableHeader().setFont(new Font("Arial", Font.BOLD, 14));
             table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
+            // ---- Custom renderer for the GPA column (index 4) ----
+            // GPA values below 3.0 are shown in red
+            table.getColumnModel().getColumn(4).setCellRenderer(
+                new javax.swing.table.DefaultTableCellRenderer() {
+                    @Override
+                    public Component getTableCellRendererComponent(
+                            JTable table, Object value, boolean isSelected,
+                            boolean hasFocus, int row, int column) {
+
+                        Component c = super.getTableCellRendererComponent(
+                                table, value, isSelected, hasFocus, row, column);
+
+                        if (!isSelected && value instanceof Double) {
+                            double gpa = (Double) value;
+                            if (gpa < 3.0) {
+                                c.setForeground(Color.RED);
+                            } else {
+                                c.setForeground(Color.BLACK);
+                            }
+                        }
+
+                        return c;
+                    }
+                }
+            );
+
             // ---- Buttons panel ----
             JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10));
 
