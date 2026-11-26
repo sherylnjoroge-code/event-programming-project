@@ -118,5 +118,5 @@ Four common JOptionPane methods:
 **Learning Outcome 4: Build a multi-pane application.** Rating (1-5): ___
 
 Did my capstone FileManager run successfully?
-- [ ] Yes
+- [x ] Yes
 - [ ] No
