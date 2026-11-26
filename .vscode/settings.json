@@ -2,6 +2,8 @@
     "java.project.sourcePaths":  [
                                      "BugFixChallenge",
                                      "SystemDesign",
+                                     "week01_EDP/eventdriven",
+                                     "week01_EDP/procedural",
                                      "week02-observer-pattern/activity1-weather-station",
                                      "week02-observer-pattern/activity2-legacy-observer",
                                      "week02-observer-pattern/activity3-custom-observer",
@@ -26,8 +28,6 @@
                                      "week07-javafx-events/src",
                                      "week08-javafx-bindings/src",
                                      "week09-async-javafx/src",
-                                     "week1_EDP/eventdriven",
-                                     "week1_EDP/procedural",
                                      "week10-university-system/src"
                                  ],
     "java.project.referencedLibraries":  [
