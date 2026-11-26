@@ -120,3 +120,6 @@ Four common JOptionPane methods:
 Did my capstone FileManager run successfully?
 - [x ] Yes
 - [ ] No
+
+
+- The guide's version builds the whole folder tree at startup, which is very slow on a real computer because it reads every folder. I used lazy loading instead: a TreeWillExpandListener loads a folder's sub-folders only when I expand it. I also wrote a custom tree renderer that shows folder names instead of full paths.
