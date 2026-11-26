@@ -20,6 +20,11 @@
         "week04-event-handling/activity5-interactive-form",
         "week04-event-handling/activity6-mouse-and-key",
         "week04-event-handling/activity7-mouse-and-key",
+        "week05-advanced-swing/activity1-jlist-renderer",
+        "week05-advanced-swing/activity2-jtable",
+        "week05-advanced-swing/activity3-jtree-tabs",
+        "week05-advanced-swing/activity4-menus-dialogs",
+        "week05-advanced-swing/activity5-capstone-file-manager",
         "week06-javafx/src",
         "week07-javafx-events/src",
         "week08-javafx-bindings/src"
